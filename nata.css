@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+header {
+  background-color: #3056d3;
+  height: 40vh;
+  color: white;
+  padding: 40px 90px 0 90px;
+}
+header .text {
+  text-align: center;
+  padding-top: 50px;
+}
+header .nav-bar {
+  display: flex;
+  justify-content: space-between;
+}
+header .nav-bar .nata {
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: larger;
+  font-size: large;
+  font-weight: 900;
+}
+header .nav-bar .nav-keys {
+  text-decoration: none;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+}
+header .nav-bar .signin-btn {
+  width: 80px;
+  height: 40px;
+  border-radius: 3px;
+  border: none;
+  background-color: rgba(48, 86, 211, 0.2392156863);
+  color: white;
+  font-size: medium;
+  cursor: pointer;
+}
+header .nav-bar .signin-btn:hover {
+  color: blue;
+  transition: all 0.5sec ease-in-out;
+}
+header .nav-bar .signup-btn {
+  width: 80px;
+  height: 40px;
+  border-radius: 3px;
+  border: none;
+  background-color: blue;
+  color: white;
+  font-size: medium;
+  cursor: pointer;
+}
+header .nav-bar .signup-btn:hover {
+  color: black;
+  background-color: white;
+  transition: all 0.5sec ease-in-out;
+}
+
+section .form-text {
+  background-color: #F1F6F5;
+  display: flex;
+  justify-content: space-between;
+  padding: 200px 150px;
+}
+section .form-text .form {
+  background-color: white;
+  padding: 50px 50px;
+  height: 60vh;
+  width: 300px;
+}
+section .form-text .form .textabove-form {
+  padding-bottom: 10px;
+  font-weight: bolder;
+  font-size: 25px;
+  color: black;
+}
+section .form-text .form .input {
+  width: 200px;
+  height: 40px;
+  border: none;
+  background-color: white;
+}
+section .form-text .form .btn {
+  background-color: #083AA9;
+  width: 200px;
+  height: 40px;
+  border: none;
+  color: white;
+  font-size: larger;
+  border-radius: 3px;
+}
+section .form-text .form .btn:hover {
+  background-color: #1808a9;
+}/*# sourceMappingURL=nata.css.map */
